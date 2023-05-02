@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background-color: #5865F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card {
+    width: 370px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #2c3a47;
+    padding: 40px 40px;
+}
+
+.picture {
+    display: inline-block;
+    padding: 8px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.picture img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.invite-btn {
+    display: inline-block;
+    padding: 12px 40px;
+    color: #ffffff;
+    border: 2px solid #5865F2;
+    border-radius: 30px;
+    margin-top: 16px;
+    transition: .3s linear;
+}
+
+.invite-btn:hover {
+    background: #5865F233;
+}
+
+.card-footer {
+    background: #2c3a47;
+    padding: 30px 0;
+    margin-top: -40px;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    flex: 1;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.item span {
+    display: block;
+    font-size: 28px;
+}
+
+.text {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.border {
+    width: 2px;
+    height: 65px;
+    background: #ffffff;
+}

@@ -1,0 +1,50 @@
+{
+    "dashboard": {
+        "port": 80
+    },
+
+    "default": {
+        "errorLogChannel": "",
+        "invite": "",
+        "logChannel": "",
+        "owners": [],
+        "prefix": "!",
+        "testGuild": ""
+    },
+
+    "embeds": {
+        "default": "#1F51FF",
+        "error": "#E74C3C",
+        "online": "#46A560",
+        "restart": "#F5A826",
+        "shutdown": "#E74044"
+    },
+
+    "emojis": {
+        "announcement_channel": "",
+        "boost_tier_1": "",
+        "boost_tier_2": "",
+        "boost_tier_3": "",
+        "dnd": "",
+        "error": "",
+        "forum_channel": "",
+        "idle": "",
+        "information": "",
+        "nsfw_channel": "",
+        "offline": "",
+        "online": "",
+        "pingpong": "",
+        "private_text_channel": "",
+        "stage_channel": "",
+        "successful": "",
+        "text_channel": "",
+        "voice_channel": "",
+        "wave": ""
+    },
+
+    "presence": {
+        "activity": "",
+        "activityType": 1,
+        "status": "ONLINE"
+    }
+}
